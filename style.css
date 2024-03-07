@@ -13,8 +13,27 @@ body {
     background-color: #6F6AF7;
     padding: 20px;
     justify-content:space-around;
+    align-items:center;
     position: fixed;
     width: 100vw;
+}
+
+.nav-search {
+    background-color: white;
+    padding: 5px;
+    height: fit-content;
+    border-radius: 20px;
+    margin-top: 10px;
+    padding-left: 10px;
+}
+
+.nav-search input {
+    border: none;
+    outline: none;
+}
+.nav-search button {
+    border: 0px solid;
+    background-color: white;
 }
 
 .all-menus {
