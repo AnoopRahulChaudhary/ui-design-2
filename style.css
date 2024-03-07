@@ -66,11 +66,12 @@ body {
 }
 
 .left-section > .left-first > textarea {
-    width: 50vw;
+    width: 45vw;
     border-radius: 10px;
     resize: none;
     border: none;
     background-color: #E5D8FF;
+    padding: 20px;
 }
 
 .left-second {
