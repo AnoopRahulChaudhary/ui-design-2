@@ -48,7 +48,7 @@ body {
 
 .main {
     display: flex;
-    margin-top: 100px;
+    margin-top: 200px;
     margin-left: 100px;
 }
 
@@ -56,16 +56,20 @@ body {
     width: 90vw;
 }
 
-.left-section > left-first {
+.left-section > .left-first {
     display: flex;
     justify-content:space-around;
 }
 
-.left-section > left-first > img {
-    width: 40vw;
+.left-section > .left-first > img {
+    width: 30vw;
 }
 
-.left-section > left-first > textarea {
+.left-section > .left-first > textarea {
+    width: 50vw;
+    border-radius: 10px;
+    resize: none;
+    border: none;
     background-color: #E5D8FF;
 }
 
